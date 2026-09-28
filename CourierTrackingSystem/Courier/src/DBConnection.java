@@ -10,7 +10,7 @@ public class DBConnection {
             con = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/courierdb",
                 "root",
-                "12345678"
+                ""
             );
         } catch (Exception e) {
             e.printStackTrace();
